@@ -1,0 +1,50 @@
+:root{
+    --white-text: #fff;
+    --dark-background: #a1a1a1;
+    --purple-text: #52307c;
+}
+
+body{
+    font-family: "arial";
+    background-color: var(--dark-background);
+    color: var(--white-text);
+}
+
+header{
+    font-size: 1em;
+    color: var(--purple-text);
+}
+
+h1{
+}
+
+p{
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+section {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+}
+
+section .card-title {
+}
+
+section .snippet{
+}
+
+pre{
+}
+
+footer{
+}
+
+span{
+}
